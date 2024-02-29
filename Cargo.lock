@@ -228,5 +228,6 @@ version = "0.1.0"
 dependencies = [
  "resast",
  "ressa",
+ "serde",
  "serde_json",
 ]

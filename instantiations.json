@@ -1,0 +1,3752 @@
+[
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Object",
+        "object_id": 1
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Class",
+        "object_id": 256
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "Animation",
+        "object_id": 267
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "Animation/1",
+        "object_id": 491
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationScheduler",
+        "object_id": 789
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationScheduler/AnimationHandle",
+        "object_id": 236
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationSchedulerImplStandard",
+        "object_id": 735
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationSchedulerImplStandard/1",
+        "object_id": 736
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationSchedulerImplTimer",
+        "object_id": 737
+    },
+    {
+        "package_obf": "hkb",
+        "package": "com.google.gwt.user.client",
+        "class_name": "Timer",
+        "object_id": 223
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationSchedulerImplTimer/1",
+        "object_id": 738
+    },
+    {
+        "package_obf": "gkb",
+        "package": "com.google.gwt.animation.client",
+        "class_name": "AnimationSchedulerImplTimer/AnimationHandleImpl",
+        "object_id": 237
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RoleImpl",
+        "object_id": 15
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "AlertRoleImpl",
+        "object_id": 619
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "AlertdialogRoleImpl",
+        "object_id": 618
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ApplicationRoleImpl",
+        "object_id": 620
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "Attribute",
+        "object_id": 285
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "AriaValueAttribute",
+        "object_id": 152
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ArticleRoleImpl",
+        "object_id": 621
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "BannerRoleImpl",
+        "object_id": 622
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ButtonRoleImpl",
+        "object_id": 623
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "CheckboxRoleImpl",
+        "object_id": 624
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ColumnheaderRoleImpl",
+        "object_id": 625
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ComboboxRoleImpl",
+        "object_id": 626
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ComplementaryRoleImpl",
+        "object_id": 627
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ContentinfoRoleImpl",
+        "object_id": 628
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "DefinitionRoleImpl",
+        "object_id": 629
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "DialogRoleImpl",
+        "object_id": 630
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "DirectoryRoleImpl",
+        "object_id": 631
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "DocumentRoleImpl",
+        "object_id": 632
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "FormRoleImpl",
+        "object_id": 633
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "GridRoleImpl",
+        "object_id": 635
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "GridcellRoleImpl",
+        "object_id": 634
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "GroupRoleImpl",
+        "object_id": 636
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "HeadingRoleImpl",
+        "object_id": 637
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ImgRoleImpl",
+        "object_id": 638
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "LinkRoleImpl",
+        "object_id": 639
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ListRoleImpl",
+        "object_id": 642
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ListboxRoleImpl",
+        "object_id": 640
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ListitemRoleImpl",
+        "object_id": 641
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "LogRoleImpl",
+        "object_id": 643
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MainRoleImpl",
+        "object_id": 644
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MarqueeRoleImpl",
+        "object_id": 645
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MathRoleImpl",
+        "object_id": 646
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MenuRoleImpl",
+        "object_id": 651
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MenubarRoleImpl",
+        "object_id": 647
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MenuitemRoleImpl",
+        "object_id": 650
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MenuitemcheckboxRoleImpl",
+        "object_id": 648
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "MenuitemradioRoleImpl",
+        "object_id": 649
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "NavigationRoleImpl",
+        "object_id": 652
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "NoteRoleImpl",
+        "object_id": 653
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "OptionRoleImpl",
+        "object_id": 654
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "PresentationRoleImpl",
+        "object_id": 655
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Enum",
+        "object_id": 9
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "PrimitiveValueAttribute",
+        "object_id": 232
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ProgressbarRoleImpl",
+        "object_id": 656
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RadioRoleImpl",
+        "object_id": 658
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RadiogroupRoleImpl",
+        "object_id": 657
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RegionRoleImpl",
+        "object_id": 659
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RowRoleImpl",
+        "object_id": 662
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RowgroupRoleImpl",
+        "object_id": 660
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "RowheaderRoleImpl",
+        "object_id": 661
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ScrollbarRoleImpl",
+        "object_id": 663
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "SearchRoleImpl",
+        "object_id": 664
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "SeparatorRoleImpl",
+        "object_id": 665
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "SliderRoleImpl",
+        "object_id": 666
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "SpinbuttonRoleImpl",
+        "object_id": 667
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "StatusRoleImpl",
+        "object_id": 668
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TabRoleImpl",
+        "object_id": 671
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TablistRoleImpl",
+        "object_id": 669
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TabpanelRoleImpl",
+        "object_id": 670
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TextboxRoleImpl",
+        "object_id": 672
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TimerRoleImpl",
+        "object_id": 673
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "ToolbarRoleImpl",
+        "object_id": 674
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TooltipRoleImpl",
+        "object_id": 675
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TreeRoleImpl",
+        "object_id": 678
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TreegridRoleImpl",
+        "object_id": 676
+    },
+    {
+        "package_obf": "ikb",
+        "package": "com.google.gwt.aria.client",
+        "class_name": "TreeitemRoleImpl",
+        "object_id": 677
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "UIObject",
+        "object_id": 31
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Widget",
+        "object_id": 27
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FocusWidget",
+        "object_id": 98
+    },
+    {
+        "package_obf": "Ekb",
+        "package": "com.google.gwt.canvas.client",
+        "class_name": "Canvas",
+        "object_id": 444
+    },
+    {
+        "package_obf": "Ekb",
+        "package": "com.google.gwt.canvas.client",
+        "class_name": "Canvas/CanvasElementSupportDetector",
+        "object_id": 773
+    },
+    {
+        "package_obf": "Ekb",
+        "package": "com.google.gwt.canvas.client",
+        "class_name": "Canvas/CanvasElementSupportDetectedMaybe",
+        "object_id": 445
+    },
+    {
+        "package_obf": "Fkb",
+        "package": "com.google.gwt.core.client",
+        "class_name": "JavaScriptObject$",
+        "object_id": 0
+    },
+    {
+        "package_obf": "Fkb",
+        "package": "com.google.gwt.core.client",
+        "class_name": "Duration",
+        "object_id": 282
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Throwable",
+        "object_id": 16
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Exception",
+        "object_id": 86
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "RuntimeException",
+        "object_id": 10
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "JsException",
+        "object_id": 172
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "JavaScriptExceptionBase",
+        "object_id": 402
+    },
+    {
+        "package_obf": "Fkb",
+        "package": "com.google.gwt.core.client",
+        "class_name": "JavaScriptException",
+        "object_id": 126
+    },
+    {
+        "package_obf": "Fkb",
+        "package": "com.google.gwt.core.client",
+        "class_name": "Scheduler",
+        "object_id": 742
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "SchedulerImpl",
+        "object_id": 542
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "SchedulerImpl/Flusher",
+        "object_id": 543
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "SchedulerImpl/Rescuer",
+        "object_id": 544
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "StackTraceCreator/Collector",
+        "object_id": 762
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "StackTraceCreator/CollectorLegacy",
+        "object_id": 403
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "StackTraceCreator/CollectorModern",
+        "object_id": 763
+    },
+    {
+        "package_obf": "Mkb",
+        "package": "com.google.gwt.core.client.impl",
+        "class_name": "StackTraceCreator/CollectorModernNoSourceMap",
+        "object_id": 404
+    },
+    {
+        "package_obf": "Qkb",
+        "package": "com.google.gwt.dom.client",
+        "class_name": "DOMImpl",
+        "object_id": 782
+    },
+    {
+        "package_obf": "Qkb",
+        "package": "com.google.gwt.dom.client",
+        "class_name": "DOMImplStandard",
+        "object_id": 783
+    },
+    {
+        "package_obf": "Qkb",
+        "package": "com.google.gwt.dom.client",
+        "class_name": "DOMImplStandardBase",
+        "object_id": 784
+    },
+    {
+        "package_obf": "Qkb",
+        "package": "com.google.gwt.dom.client",
+        "class_name": "DOMImplWebkit",
+        "object_id": 601
+    },
+    {
+        "package_obf": "alb",
+        "package": "com.google.web.bindery.event.shared",
+        "class_name": "Event",
+        "object_id": 751
+    },
+    {
+        "package_obf": "blb",
+        "package": "com.google.gwt.event.shared",
+        "class_name": "GwtEvent",
+        "object_id": 750
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "DomEvent",
+        "object_id": 769
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "ChangeEvent",
+        "object_id": 573
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "HumanInputEvent",
+        "object_id": 770
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "MouseEvent",
+        "object_id": 771
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "ClickEvent",
+        "object_id": 416
+    },
+    {
+        "package_obf": "alb",
+        "package": "com.google.web.bindery.event.shared",
+        "class_name": "Event/Type",
+        "object_id": 396
+    },
+    {
+        "package_obf": "blb",
+        "package": "com.google.gwt.event.shared",
+        "class_name": "GwtEvent/Type",
+        "object_id": 133
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "DomEvent/Type",
+        "object_id": 88
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "ErrorEvent",
+        "object_id": 731
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "KeyEvent",
+        "object_id": 774
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "KeyCodeEvent",
+        "object_id": 775
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "KeyDownEvent",
+        "object_id": 452
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "KeyUpEvent",
+        "object_id": 453
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "LoadEvent",
+        "object_id": 730
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "MouseDownEvent",
+        "object_id": 571
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "PrivateMap",
+        "object_id": 569
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "TouchEvent",
+        "object_id": 781
+    },
+    {
+        "package_obf": "clb",
+        "package": "com.google.gwt.event.dom.client",
+        "class_name": "TouchStartEvent",
+        "object_id": 572
+    },
+    {
+        "package_obf": "flb",
+        "package": "com.google.gwt.event.logical.shared",
+        "class_name": "CloseEvent",
+        "object_id": 679
+    },
+    {
+        "package_obf": "flb",
+        "package": "com.google.gwt.event.logical.shared",
+        "class_name": "ResizeEvent",
+        "object_id": 598
+    },
+    {
+        "package_obf": "blb",
+        "package": "com.google.gwt.event.shared",
+        "class_name": "HandlerManager",
+        "object_id": 200
+    },
+    {
+        "package_obf": "alb",
+        "package": "com.google.web.bindery.event.shared",
+        "class_name": "EventBus",
+        "object_id": 772
+    },
+    {
+        "package_obf": "alb",
+        "package": "com.google.web.bindery.event.shared",
+        "class_name": "SimpleEventBus",
+        "object_id": 427
+    },
+    {
+        "package_obf": "blb",
+        "package": "com.google.gwt.event.shared",
+        "class_name": "HandlerManager/Bus",
+        "object_id": 428
+    },
+    {
+        "package_obf": "blb",
+        "package": "com.google.gwt.event.shared",
+        "class_name": "LegacyHandlerWrapper",
+        "object_id": 570
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "Request",
+        "object_id": 708
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "Request/1",
+        "object_id": 710
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "RequestBuilder",
+        "object_id": 218
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "RequestBuilder/1",
+        "object_id": 707
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "RequestBuilder/Method",
+        "object_id": 191
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "RequestException",
+        "object_id": 97
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "RequestPermissionException",
+        "object_id": 729
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "RequestTimeoutException",
+        "object_id": 739
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "Response",
+        "object_id": 787
+    },
+    {
+        "package_obf": "ilb",
+        "package": "com.google.gwt.http.client",
+        "class_name": "ResponseImpl",
+        "object_id": 709
+    },
+    {
+        "package_obf": "rlb",
+        "package": "com.google.gwt.layout.client",
+        "class_name": "Layout",
+        "object_id": 489
+    },
+    {
+        "package_obf": "rlb",
+        "package": "com.google.gwt.layout.client",
+        "class_name": "Layout/1",
+        "object_id": 490
+    },
+    {
+        "package_obf": "rlb",
+        "package": "com.google.gwt.layout.client",
+        "class_name": "Layout/Layer",
+        "object_id": 183
+    },
+    {
+        "package_obf": "rlb",
+        "package": "com.google.gwt.layout.client",
+        "class_name": "LayoutImpl",
+        "object_id": 565
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Handler",
+        "object_id": 178
+    },
+    {
+        "package_obf": "xlb",
+        "package": "com.google.gwt.logging.client",
+        "class_name": "ConsoleLogHandler",
+        "object_id": 298
+    },
+    {
+        "package_obf": "xlb",
+        "package": "com.google.gwt.logging.client",
+        "class_name": "DevelopmentModeLogHandler",
+        "object_id": 299
+    },
+    {
+        "package_obf": "xlb",
+        "package": "com.google.gwt.logging.client",
+        "class_name": "LogConfiguration/1",
+        "object_id": 297
+    },
+    {
+        "package_obf": "xlb",
+        "package": "com.google.gwt.logging.client",
+        "class_name": "LogConfiguration/LogConfigurationImplRegular",
+        "object_id": 743
+    },
+    {
+        "package_obf": "xlb",
+        "package": "com.google.gwt.logging.client",
+        "class_name": "LogConfiguration/LogConfigurationImplSevere",
+        "object_id": 296
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Formatter",
+        "object_id": 785
+    },
+    {
+        "package_obf": "ylb",
+        "package": "com.google.gwt.logging.impl",
+        "class_name": "FormatterImpl",
+        "object_id": 786
+    },
+    {
+        "package_obf": "xlb",
+        "package": "com.google.gwt.logging.client",
+        "class_name": "TextLogFormatter",
+        "object_id": 283
+    },
+    {
+        "package_obf": "Blb",
+        "package": "java.io",
+        "class_name": "OutputStream",
+        "object_id": 764
+    },
+    {
+        "package_obf": "Blb",
+        "package": "java.io",
+        "class_name": "FilterOutputStream",
+        "object_id": 261
+    },
+    {
+        "package_obf": "Blb",
+        "package": "java.io",
+        "class_name": "PrintStream",
+        "object_id": 219
+    },
+    {
+        "package_obf": "ylb",
+        "package": "com.google.gwt.logging.impl",
+        "class_name": "StackTracePrintStream",
+        "object_id": 617
+    },
+    {
+        "package_obf": "Dlb",
+        "package": "com.google.gwt.safehtml.shared",
+        "class_name": "OnlyToBeUsedInGeneratedCodeStringBlessedAsSafeHtml",
+        "object_id": 728
+    },
+    {
+        "package_obf": "Dlb",
+        "package": "com.google.gwt.safehtml.shared",
+        "class_name": "SafeHtmlString",
+        "object_id": 732
+    },
+    {
+        "package_obf": "Dlb",
+        "package": "com.google.gwt.safehtml.shared",
+        "class_name": "SafeUriString",
+        "object_id": 153
+    },
+    {
+        "package_obf": "hkb",
+        "package": "com.google.gwt.user.client",
+        "class_name": "Window/ClosingEvent",
+        "object_id": 426
+    },
+    {
+        "package_obf": "hkb",
+        "package": "com.google.gwt.user.client",
+        "class_name": "Window/WindowHandlers",
+        "object_id": 222
+    },
+    {
+        "package_obf": "Qlb",
+        "package": "com.google.gwt.user.client.impl",
+        "class_name": "ElementMapperImpl",
+        "object_id": 599
+    },
+    {
+        "package_obf": "Qlb",
+        "package": "com.google.gwt.user.client.impl",
+        "class_name": "ElementMapperImpl/FreeNode",
+        "object_id": 600
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Panel",
+        "object_id": 749
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "ComplexPanel",
+        "object_id": 221
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "AbsolutePanel",
+        "object_id": 448
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "AttachDetachException",
+        "object_id": 423
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "AttachDetachException/1",
+        "object_id": 424
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "AttachDetachException/2",
+        "object_id": 425
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "ButtonBase",
+        "object_id": 141
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Button",
+        "object_id": 247
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "CellPanel",
+        "object_id": 499
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "CustomButton",
+        "object_id": 176
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "CustomButton/Face",
+        "object_id": 415
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "CustomButton/2",
+        "object_id": 130
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "DirectionalTextHelper",
+        "object_id": 574
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FileUpload",
+        "object_id": 245
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HTMLTable",
+        "object_id": 410
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FlexTable",
+        "object_id": 300
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HTMLTable/CellFormatter",
+        "object_id": 411
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FlexTable/FlexCellFormatter",
+        "object_id": 412
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "SimplePanel",
+        "object_id": 391
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FormPanel",
+        "object_id": 244
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FormPanel/1",
+        "object_id": 392
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FormPanel/SubmitCompleteEvent",
+        "object_id": 394
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "FormPanel/SubmitEvent",
+        "object_id": 393
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "LabelBase",
+        "object_id": 205
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Label",
+        "object_id": 174
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HTML",
+        "object_id": 217
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HTMLTable/1",
+        "object_id": 414
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HTMLTable/ColumnFormatter",
+        "object_id": 413
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HasHorizontalAlignment/AutoHorizontalAlignmentConstant",
+        "object_id": 777
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HasHorizontalAlignment/HorizontalAlignmentConstant",
+        "object_id": 204
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "HasVerticalAlignment/VerticalAlignmentConstant",
+        "object_id": 226
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Hidden",
+        "object_id": 246
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Image",
+        "object_id": 225
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Image/State",
+        "object_id": 497
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Image/State/1",
+        "object_id": 498
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "Image/UnclippedState",
+        "object_id": 203
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "LayoutCommand",
+        "object_id": 492
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "LayoutCommand/1",
+        "object_id": 493
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "LayoutPanel",
+        "object_id": 55
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "PushButton",
+        "object_id": 384
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "RootLayoutPanel",
+        "object_id": 421
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "RootLayoutPanel/1",
+        "object_id": 422
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "RootPanel",
+        "object_id": 202
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "RootPanel/1",
+        "object_id": 450
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "RootPanel/2",
+        "object_id": 451
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "RootPanel/DefaultRootPanel",
+        "object_id": 449
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "SimplePanel/1",
+        "object_id": 395
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "ToggleButton",
+        "object_id": 34
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "VerticalPanel",
+        "object_id": 335
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "WidgetCollection",
+        "object_id": 566
+    },
+    {
+        "package_obf": "Akb",
+        "package": "com.google.gwt.user.client.ui",
+        "class_name": "WidgetCollection/WidgetIterator",
+        "object_id": 199
+    },
+    {
+        "package_obf": "$lb",
+        "package": "com.google.gwt.user.client.ui.impl",
+        "class_name": "FocusImpl",
+        "object_id": 494
+    },
+    {
+        "package_obf": "$lb",
+        "package": "com.google.gwt.user.client.ui.impl",
+        "class_name": "FocusImplStandard",
+        "object_id": 780
+    },
+    {
+        "package_obf": "$lb",
+        "package": "com.google.gwt.user.client.ui.impl",
+        "class_name": "FocusImplSafari",
+        "object_id": 567
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Error",
+        "object_id": 94
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "AssertionError",
+        "object_id": 57
+    },
+    {
+        "package_obf": "alb",
+        "package": "com.google.web.bindery.event.shared",
+        "class_name": "SimpleEventBus/1",
+        "object_id": 429
+    },
+    {
+        "package_obf": "alb",
+        "package": "com.google.web.bindery.event.shared",
+        "class_name": "SimpleEventBus/2",
+        "object_id": 430
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ControlBox",
+        "object_id": 208
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "DiagramElementCache",
+        "object_id": 495
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "EditAuthorizer",
+        "object_id": 302
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "EditAuthorizer/lambda$0$Type",
+        "object_id": 431
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "EditAuthorizer/lambda$1$Type",
+        "object_id": 432
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "FillAnimation",
+        "object_id": 614
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "FillAnimation/0methodref$distance$Type",
+        "object_id": 615
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "FillAnimation/1methodref$max$Type",
+        "object_id": 616
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ImageCache",
+        "object_id": 324
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ImageCache/1",
+        "object_id": 484
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ImageCache/2",
+        "object_id": 485
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ImageCache/LoadResult",
+        "object_id": 224
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "NativeHandler",
+        "object_id": 776
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter",
+        "object_id": 326
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/0methodref$isFilledStroke$Type",
+        "object_id": 476
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/1",
+        "object_id": 472
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/2",
+        "object_id": 473
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/3",
+        "object_id": 474
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/4",
+        "object_id": 475
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$0$Type",
+        "object_id": 477
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$1$Type",
+        "object_id": 478
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$2$Type",
+        "object_id": 479
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$3$Type",
+        "object_id": 480
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$4$Type",
+        "object_id": 481
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$5$Type",
+        "object_id": 482
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Painter/lambda$6$Type",
+        "object_id": 483
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ResizeListener",
+        "object_id": 327
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "ResizeListener/1",
+        "object_id": 486
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "SubmittableException",
+        "object_id": 231
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler",
+        "object_id": 323
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/1",
+        "object_id": 462
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/10",
+        "object_id": 470
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/11",
+        "object_id": 471
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/2",
+        "object_id": 463
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/3",
+        "object_id": 464
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/4",
+        "object_id": 465
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/5",
+        "object_id": 101
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/6",
+        "object_id": 466
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/7",
+        "object_id": 467
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/8",
+        "object_id": 468
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "TouchHandler/9",
+        "object_id": 469
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "UserStatusEvent",
+        "object_id": 198
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener",
+        "object_id": 320
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/1",
+        "object_id": 454
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/1/0methodref$getId$Type",
+        "object_id": 455
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/1/1methodref$isNull$Type",
+        "object_id": 456
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/1/lambda$0$Type",
+        "object_id": 457
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/2",
+        "object_id": 458
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/2methodref$getElement$Type",
+        "object_id": 459
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/3methodref$nonNull$Type",
+        "object_id": 460
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WebSocketNetListener/lambda$0$Type",
+        "object_id": 461
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard",
+        "object_id": 293
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/0methodref$generateSnapShot$Type",
+        "object_id": 308
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/1",
+        "object_id": 321
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/10",
+        "object_id": 363
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/11",
+        "object_id": 364
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/12",
+        "object_id": 369
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/13",
+        "object_id": 371
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/14",
+        "object_id": 385
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/15",
+        "object_id": 386
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/1methodref$requestApprovalToUpdateFillSelectionStatus$Type",
+        "object_id": 316
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/2",
+        "object_id": 322
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/2methodref$handleKeyUp$Type",
+        "object_id": 319
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/3",
+        "object_id": 328
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/3methodref$requestApprovalToUpdateFillSelectionStatus$Type",
+        "object_id": 241
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/4",
+        "object_id": 329
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/4methodref$enablePostMode$Type",
+        "object_id": 332
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/5",
+        "object_id": 331
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/5methodref$drawButtonPressed$Type",
+        "object_id": 341
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/6",
+        "object_id": 336
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/6methodref$addPic$Type",
+        "object_id": 367
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/7",
+        "object_id": 337
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/7/1",
+        "object_id": 389
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/7methodref$showUsersPopup$Type",
+        "object_id": 368
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/8",
+        "object_id": 338
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/8methodref$enablePostMode$Type",
+        "object_id": 370
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/9",
+        "object_id": 346
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/9methodref$sum$Type",
+        "object_id": 388
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$0$Type",
+        "object_id": 301
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$1$Type",
+        "object_id": 303
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$10$Type",
+        "object_id": 330
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$11$Type",
+        "object_id": 333
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$12$Type",
+        "object_id": 334
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$13$Type",
+        "object_id": 339
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$14$Type",
+        "object_id": 340
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$15$Type",
+        "object_id": 342
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$16$Type",
+        "object_id": 343
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$17$Type",
+        "object_id": 344
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$18$Type",
+        "object_id": 345
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$19$Type",
+        "object_id": 347
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$2$Type",
+        "object_id": 309
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$20$Type",
+        "object_id": 348
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$21$Type",
+        "object_id": 349
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$22$Type",
+        "object_id": 350
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$23$Type",
+        "object_id": 351
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$24$Type",
+        "object_id": 352
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$25$Type",
+        "object_id": 353
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$26$Type",
+        "object_id": 354
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$27$Type",
+        "object_id": 355
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$28$Type",
+        "object_id": 356
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$29$Type",
+        "object_id": 357
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$3$Type",
+        "object_id": 310
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$30$Type",
+        "object_id": 361
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$31$Type",
+        "object_id": 365
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$32$Type",
+        "object_id": 366
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$33$Type",
+        "object_id": 373
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$34$Type",
+        "object_id": 375
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$35$Type",
+        "object_id": 376
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$36$Type",
+        "object_id": 377
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$37$Type",
+        "object_id": 242
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$38$Type",
+        "object_id": 243
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$39$Type",
+        "object_id": 378
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$4$Type",
+        "object_id": 311
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$40$Type",
+        "object_id": 379
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$41$Type",
+        "object_id": 380
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$42$Type",
+        "object_id": 381
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$43$Type",
+        "object_id": 382
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$44$Type",
+        "object_id": 383
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$45$Type",
+        "object_id": 387
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$5$Type",
+        "object_id": 312
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$6$Type",
+        "object_id": 313
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$7$Type",
+        "object_id": 314
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$8$Type",
+        "object_id": 318
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "Whiteboard/lambda$9$Type",
+        "object_id": 325
+    },
+    {
+        "package_obf": "fmb",
+        "package": "com.markmclaren.whiteboard.client",
+        "class_name": "WhiteboardUser",
+        "object_id": 134
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "FillSelectionState",
+        "object_id": 96
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "FillSelectionState/lambda$0$Type",
+        "object_id": 564
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "SelectableArea",
+        "object_id": 64
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "MultipleElementSelection",
+        "object_id": 50
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "MultipleElementSelection/lambda$0$Type",
+        "object_id": 607
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "MultipleElementSelection/lambda$1$Type",
+        "object_id": 359
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "MultipleElementSelection/lambda$2$Type",
+        "object_id": 360
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "MultipleElementSelection/lambda$3$Type",
+        "object_id": 608
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "MultipleElementSelection/lambda$4$Type",
+        "object_id": 609
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "View",
+        "object_id": 305
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "View/0methodref$setElementColor$Type",
+        "object_id": 420
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "View/lambda$0$Type",
+        "object_id": 417
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "View/lambda$1$Type",
+        "object_id": 418
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "View/lambda$2$Type",
+        "object_id": 419
+    },
+    {
+        "package_obf": "dnb",
+        "package": "com.markmclaren.whiteboard.client.view",
+        "class_name": "ViewEvent",
+        "object_id": 41
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SingleTouchMode",
+        "object_id": 100
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ClickToFillMode",
+        "object_id": 315
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ClickToFillMode/0methodref$getLinePoints$Type",
+        "object_id": 447
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ClickToFillMode/lambda$0$Type",
+        "object_id": 446
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CommandHistory",
+        "object_id": 306
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand",
+        "object_id": 248
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/0methodref$exec$Type",
+        "object_id": 713
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/1methodref$undo$Type",
+        "object_id": 714
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/2methodref$exec$Type",
+        "object_id": 715
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/3methodref$undo$Type",
+        "object_id": 716
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/4methodref$undo$Type",
+        "object_id": 718
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/5methodref$exec$Type",
+        "object_id": 719
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "CopySelectionCommand/lambda$0$Type",
+        "object_id": 717
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "DeleteCommand",
+        "object_id": 197
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "DeleteCommand/lambda$0$Type",
+        "object_id": 684
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "DeleteSelectionCommand",
+        "object_id": 358
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "DeleteSelectionCommand/0methodref$elementIsSelected$Type",
+        "object_id": 720
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "FillSelectionCommand",
+        "object_id": 214
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ManualBridgeMode",
+        "object_id": 317
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ManualBridgeMode/0methodref$getLinePoints$Type",
+        "object_id": 264
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "MoveCommand",
+        "object_id": 284
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "NullMode",
+        "object_id": 488
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "PanMode",
+        "object_id": 212
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "PencilMode",
+        "object_id": 173
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "PictureCommand",
+        "object_id": 215
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "RepaintCommand",
+        "object_id": 362
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "RepaintCommand/lambda$0$Type",
+        "object_id": 711
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "RepaintCommand/lambda$1$Type",
+        "object_id": 712
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode",
+        "object_id": 213
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$0$Type",
+        "object_id": 437
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$1$Type",
+        "object_id": 438
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$2$Type",
+        "object_id": 439
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$3$Type",
+        "object_id": 440
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$4$Type",
+        "object_id": 441
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$5$Type",
+        "object_id": 442
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$6$Type",
+        "object_id": 443
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMode/lambda$7$Type",
+        "object_id": 436
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SelectionMover",
+        "object_id": 602
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SnapshotMode",
+        "object_id": 211
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "StrokeCommand",
+        "object_id": 196
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "StyleMode",
+        "object_id": 123
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "StyleMode/lambda$0$Type",
+        "object_id": 575
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "StyleMode/lambda$1$Type",
+        "object_id": 186
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "StyleMode/lambda$2$Type",
+        "object_id": 278
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SwipeOverElementMode",
+        "object_id": 195
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SwipeOverElementMode/lambda$0$Type",
+        "object_id": 433
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SwipeOverElementMode/lambda$1$Type",
+        "object_id": 434
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "SwipeOverElementMode/lambda$2$Type",
+        "object_id": 435
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "TextCommand",
+        "object_id": 216
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ViewController",
+        "object_id": 307
+    },
+    {
+        "package_obf": "inb",
+        "package": "com.markmclaren.whiteboard.client.view.controller",
+        "class_name": "ZoomMode",
+        "object_id": 613
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "BoundsCache",
+        "object_id": 680
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "BoundsCache/ScanBreak",
+        "object_id": 189
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "BoundsCache/lambda$0$Type",
+        "object_id": 681
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "BoundsCache/lambda$1$Type",
+        "object_id": 682
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "BoundsCache/lambda$2$Type",
+        "object_id": 683
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/0methodref$scaledAndRoundPoints$Type",
+        "object_id": 587
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/1methodref$isPoint$Type",
+        "object_id": 589
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/2methodref$scaledAndRoundPoints$Type",
+        "object_id": 590
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/3methodref$removeConsecutiveDuplicates$Type",
+        "object_id": 591
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/4methodref$ctor$Type",
+        "object_id": 592
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/5methodref$scaledAndRoundPoint$Type",
+        "object_id": 142
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/BridgeCalculationResult",
+        "object_id": 586
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/ClosestPointTracker",
+        "object_id": 281
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/TimeOutException",
+        "object_id": 229
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/lambda$0$Type",
+        "object_id": 588
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/lambda$1$Type",
+        "object_id": 593
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/lambda$2$Type",
+        "object_id": 594
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/lambda$3$Type",
+        "object_id": 595
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/lambda$4$Type",
+        "object_id": 596
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillOps/lambda$5$Type",
+        "object_id": 597
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillResult",
+        "object_id": 610
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "FillResult/0methodref$size$Type",
+        "object_id": 611
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "Fraction",
+        "object_id": 70
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "Intersection",
+        "object_id": 207
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "IntersectionNodePath",
+        "object_id": 144
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "LineKey",
+        "object_id": 132
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "ListWrapper",
+        "object_id": 103
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "ListWrapper/lambda$0$Type",
+        "object_id": 702
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "ListWrapper/lambda$1$Type",
+        "object_id": 703
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "ListWrapper/lambda$2$Type",
+        "object_id": 704
+    },
+    {
+        "package_obf": "onb",
+        "package": "com.markmclaren.whiteboard.fill",
+        "class_name": "ListWrapper/lambda$3$Type",
+        "object_id": 705
+    },
+    {
+        "package_obf": "rnb",
+        "package": "com.markmclaren.whiteboard.shared",
+        "class_name": "ElementId",
+        "object_id": 72
+    },
+    {
+        "package_obf": "rnb",
+        "package": "com.markmclaren.whiteboard.shared",
+        "class_name": "NetEvent",
+        "object_id": 49
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Color",
+        "object_id": 7
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Diagram",
+        "object_id": 304
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Line",
+        "object_id": 65
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Picture",
+        "object_id": 29
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Point",
+        "object_id": 4
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Point/lambda$0$Type",
+        "object_id": 563
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "SourcePoint",
+        "object_id": 5
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke",
+        "object_id": 14
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/0methodref$isEmpty$Type",
+        "object_id": 576
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/1methodref$getScaledDownAndRoundedSourcePoints$Type",
+        "object_id": 577
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/2methodref$toSourcePoint$Type",
+        "object_id": 578
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/3methodref$nonNull$Type",
+        "object_id": 579
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/4methodref$min$Type",
+        "object_id": 581
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/5methodref$max$Type",
+        "object_id": 583
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/6methodref$toWorldCoords$Type",
+        "object_id": 585
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$0$Type",
+        "object_id": 67
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$1$Type",
+        "object_id": 279
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$2$Type",
+        "object_id": 580
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$3$Type",
+        "object_id": 582
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$4$Type",
+        "object_id": 584
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$5$Type",
+        "object_id": 175
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Stroke/lambda$6$Type",
+        "object_id": 280
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Text",
+        "object_id": 30
+    },
+    {
+        "package_obf": "enb",
+        "package": "com.markmclaren.whiteboard.shared.diagram",
+        "class_name": "Viewport",
+        "object_id": 69
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractCollection",
+        "object_id": 765
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractList",
+        "object_id": 766
+    },
+    {
+        "package_obf": "wnb",
+        "package": "com.markmclaren.whiteboard.shared.util",
+        "class_name": "ReverseList",
+        "object_id": 290
+    },
+    {
+        "package_obf": "wnb",
+        "package": "com.markmclaren.whiteboard.shared.util",
+        "class_name": "StateListeners",
+        "object_id": 182
+    },
+    {
+        "package_obf": "wnb",
+        "package": "com.markmclaren.whiteboard.shared.util",
+        "class_name": "StepFunction",
+        "object_id": 206
+    },
+    {
+        "package_obf": "Anb",
+        "package": "com.markmclaren.whiteboard.shared.util.io",
+        "class_name": "DataByteArrayInputStream",
+        "object_id": 102
+    },
+    {
+        "package_obf": "Anb",
+        "package": "com.markmclaren.whiteboard.shared.util.io",
+        "class_name": "DataByteArrayOutputStream",
+        "object_id": 92
+    },
+    {
+        "package_obf": "Anb",
+        "package": "com.markmclaren.whiteboard.shared.util.io",
+        "class_name": "DiagramBytes/lambda$0$Type",
+        "object_id": 612
+    },
+    {
+        "package_obf": "Blb",
+        "package": "java.io",
+        "class_name": "IOException",
+        "object_id": 40
+    },
+    {
+        "package_obf": "Anb",
+        "package": "com.markmclaren.whiteboard.shared.util.io",
+        "class_name": "EOFException",
+        "object_id": 190
+    },
+    {
+        "package_obf": "Anb",
+        "package": "com.markmclaren.whiteboard.shared.util.io",
+        "class_name": "UTFDataFormatException",
+        "object_id": 155
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "AbstractStringBuilder",
+        "object_id": 257
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "ArithmeticException",
+        "object_id": 266
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "IndexOutOfBoundsException",
+        "object_id": 60
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "ArrayIndexOutOfBoundsException",
+        "object_id": 289
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "ArrayStoreException",
+        "object_id": 265
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Boolean",
+        "object_id": 255
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "ClassCastException",
+        "object_id": 399
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Number",
+        "object_id": 201
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Double",
+        "object_id": 398
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "IllegalArgumentException",
+        "object_id": 52
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "IllegalStateException",
+        "object_id": 59
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Integer",
+        "object_id": 58
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "Long",
+        "object_id": 124
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "NullPointerException",
+        "object_id": 83
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "NumberFormatException",
+        "object_id": 71
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "StackTraceElement",
+        "object_id": 95
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "String",
+        "object_id": 2
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "StringBuilder",
+        "object_id": 127
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "StringIndexOutOfBoundsException",
+        "object_id": 260
+    },
+    {
+        "package_obf": "ekb",
+        "package": "java.lang",
+        "class_name": "UnsupportedOperationException",
+        "object_id": 54
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap",
+        "object_id": 767
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractHashMap",
+        "object_id": 220
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractSet",
+        "object_id": 768
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractHashMap/EntrySet",
+        "object_id": 46
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractHashMap/EntrySetIterator",
+        "object_id": 51
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractList/IteratorImpl",
+        "object_id": 179
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractList/ListIteratorImpl",
+        "object_id": 262
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractList/SubList",
+        "object_id": 406
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap/1",
+        "object_id": 99
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap/1/1",
+        "object_id": 87
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap/2",
+        "object_id": 372
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap/2/1",
+        "object_id": 249
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap/AbstractEntry",
+        "object_id": 408
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMap/SimpleEntry",
+        "object_id": 409
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "AbstractMapEntry",
+        "object_id": 779
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "ArrayList",
+        "object_id": 11
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "ArrayList/1",
+        "object_id": 44
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Arrays/ArrayList",
+        "object_id": 42
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/EmptyList",
+        "object_id": 554
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/EmptyListIterator",
+        "object_id": 555
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableCollection",
+        "object_id": 268
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableCollectionIterator",
+        "object_id": 84
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableList",
+        "object_id": 227
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableListIterator",
+        "object_id": 270
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableMap",
+        "object_id": 556
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableSet",
+        "object_id": 185
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableMap/UnmodifiableEntrySet",
+        "object_id": 557
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableMap/UnmodifiableEntrySet/1",
+        "object_id": 558
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableMap/UnmodifiableEntrySet/UnmodifiableEntry",
+        "object_id": 269
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Collections/UnmodifiableRandomAccessList",
+        "object_id": 228
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Comparators/NaturalOrderComparator",
+        "object_id": 287
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Comparators/ReversedComparator",
+        "object_id": 374
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "ConcurrentModificationException",
+        "object_id": 727
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Date",
+        "object_id": 192
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "HashMap",
+        "object_id": 37
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "HashSet",
+        "object_id": 26
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "IntSummaryStatistics",
+        "object_id": 733
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "InternalHashCodeMap",
+        "object_id": 568
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "InternalHashCodeMap/1",
+        "object_id": 276
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "InternalStringMap",
+        "object_id": 561
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "InternalStringMap/1",
+        "object_id": 275
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "InternalStringMap/2",
+        "object_id": 562
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Locale",
+        "object_id": 761
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Locale/1",
+        "object_id": 400
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Locale/4",
+        "object_id": 401
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "LongSummaryStatistics",
+        "object_id": 734
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Map/Entry/lambda$1$Type",
+        "object_id": 407
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "NoSuchElementException",
+        "object_id": 140
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Optional",
+        "object_id": 156
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "OptionalLong",
+        "object_id": 154
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterator/OfInt/2methodref$accept$Type",
+        "object_id": 271
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterator/OfInt/3methodref$accept$Type",
+        "object_id": 272
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterator/OfLong/4methodref$accept$Type",
+        "object_id": 273
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterator/OfLong/5methodref$accept$Type",
+        "object_id": 274
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/BaseSpliterator",
+        "object_id": 230
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/AbstractIntSpliterator",
+        "object_id": 685
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/AbstractLongSpliterator",
+        "object_id": 687
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/AbstractSpliterator",
+        "object_id": 150
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/BaseArraySpliterator",
+        "object_id": 559
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/ArraySpliterator",
+        "object_id": 560
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "Spliterators/IteratorSpliterator",
+        "object_id": 19
+    },
+    {
+        "package_obf": "unb",
+        "package": "java.util",
+        "class_name": "StringJoiner",
+        "object_id": 128
+    },
+    {
+        "package_obf": "Snb",
+        "package": "java.util.function",
+        "class_name": "Function/lambda$0$Type",
+        "object_id": 397
+    },
+    {
+        "package_obf": "Snb",
+        "package": "java.util.function",
+        "class_name": "Predicate/lambda$0$Type",
+        "object_id": 20
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level",
+        "object_id": 778
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelAll",
+        "object_id": 545
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelConfig",
+        "object_id": 546
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelFine",
+        "object_id": 547
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelFiner",
+        "object_id": 548
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelFinest",
+        "object_id": 549
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelInfo",
+        "object_id": 550
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelOff",
+        "object_id": 551
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelSevere",
+        "object_id": 552
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Level/LevelWarning",
+        "object_id": 553
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "LogManager",
+        "object_id": 487
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "LogRecord",
+        "object_id": 706
+    },
+    {
+        "package_obf": "wlb",
+        "package": "java.util.logging",
+        "class_name": "Logger",
+        "object_id": 177
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "CollectorImpl",
+        "object_id": 288
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/10methodref$merge$Type",
+        "object_id": 252
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/11methodref$toString$Type",
+        "object_id": 253
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/20methodref$add$Type",
+        "object_id": 23
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/21methodref$ctor$Type",
+        "object_id": 22
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/23methodref$ctor$Type",
+        "object_id": 135
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/24methodref$add$Type",
+        "object_id": 136
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/9methodref$add$Type",
+        "object_id": 251
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/lambda$21$Type",
+        "object_id": 24
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/lambda$25$Type",
+        "object_id": 137
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/lambda$26$Type",
+        "object_id": 138
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Collectors/lambda$6$Type",
+        "object_id": 250
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "TerminatableStream",
+        "object_id": 233
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "IntStreamImpl",
+        "object_id": 721
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "IntStreamImpl/lambda$2$Type",
+        "object_id": 722
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "LongStreamImpl",
+        "object_id": 723
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "LongStreamImpl/ValueConsumer",
+        "object_id": 724
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "LongStreamImpl/lambda$1$Type",
+        "object_id": 725
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "LongStreamImpl/lambda$2$Type",
+        "object_id": 726
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Stream/0methodref$close$Type",
+        "object_id": 605
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Stream/1methodref$close$Type",
+        "object_id": 606
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Stream/2",
+        "object_id": 603
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "Stream/2/lambda$0$Type",
+        "object_id": 604
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl",
+        "object_id": 18
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/1",
+        "object_id": 697
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/1/lambda$0$Type",
+        "object_id": 698
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/5",
+        "object_id": 699
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/5/2methodref$add$Type",
+        "object_id": 700
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/FilterSpliterator",
+        "object_id": 234
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/FilterSpliterator/lambda$0$Type",
+        "object_id": 693
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/LimitSpliterator",
+        "object_id": 689
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/MapToIntSpliterator",
+        "object_id": 686
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/MapToIntSpliterator/lambda$0$Type",
+        "object_id": 691
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/MapToLongSpliterator",
+        "object_id": 688
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/MapToLongSpliterator/lambda$0$Type",
+        "object_id": 692
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/MapToObjSpliterator",
+        "object_id": 286
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/MapToObjSpliterator/lambda$0$Type",
+        "object_id": 690
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/ValueConsumer",
+        "object_id": 235
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/lambda$0$Type",
+        "object_id": 694
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/lambda$4$Type",
+        "object_id": 695
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "StreamImpl/lambda$5$Type",
+        "object_id": 696
+    },
+    {
+        "package_obf": "Unb",
+        "package": "java.util.stream",
+        "class_name": "TerminatableStream/lambda$0$Type",
+        "object_id": 701
+    },
+    {
+        "package_obf": "Wnb",
+        "package": "javaemul.internal",
+        "class_name": "ConsoleLogger",
+        "object_id": 788
+    },
+    {
+        "package_obf": "Wnb",
+        "package": "javaemul.internal",
+        "class_name": "EmulatedCharset",
+        "object_id": 258
+    },
+    {
+        "package_obf": "Wnb",
+        "package": "javaemul.internal",
+        "class_name": "EmulatedCharset/LatinCharset",
+        "object_id": 259
+    },
+    {
+        "package_obf": "Wnb",
+        "package": "javaemul.internal",
+        "class_name": "EmulatedCharset/UtfCharset",
+        "object_id": 405
+    }
+]
