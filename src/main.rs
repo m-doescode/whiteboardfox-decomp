@@ -12,6 +12,7 @@ use std::collections::HashMap;
 use std::thread;
 
 use serde::{ Serialize, Deserialize };
+use std::iter;
 
 const STACK_SIZE: usize = 4 * 1024 * 1024;
 
@@ -24,6 +25,8 @@ fn run() {
         Program::Mod(_) => panic!(),
         Program::Script(parts) => parts,
     };
+
+    println!("Analyzing...");
 
     // dbg!(&ast[0..10]);
     // dbg!(&ast[0]);
@@ -69,13 +72,18 @@ fn run() {
     //     comb_prog_part(a);
     // }
 
-    let instantiations: Vec<Instantiation> = ast.iter().flat_map(|a| comb_prog_part(a)).map(|i11n| Instantiation {
+    let instantiations: Vec<Instantiation> = ast.iter().flat_map(|a| visit_prog_part(a)).map(|i11n| Instantiation {
         package: translations.get(&i11n.package_obf).unwrap().to_string(),
         package_obf: i11n.package_obf,
         class_name: i11n.class_name,
         object_id: i11n.object_id,
     }).collect();
     fs::write("instantiations.json", serde_json::to_string(&instantiations).unwrap()).unwrap();
+
+    println!("Done.");
+
+    println!("Number of translations: {}", translations.len());
+    println!("Number of object instantiations: {}", instantiations.len());
 }
 
 fn main() {
@@ -89,7 +97,37 @@ fn main() {
     child.join().unwrap();
 }
 
-fn comb_expr(expr: &Expr) -> Vec<I11nObf> {
+fn visit_prog_part(a: &ProgramPart) -> Vec<I11nObf> {
+    match a {
+        ProgramPart::Decl(Decl::Var(_, decls)) => decls
+            .iter()
+            .flat_map(|decl| decl.init.as_ref().map_or(vec![], |expr| visit_expr(expr)))
+            .collect(),
+        // 10 missing instantiations
+        ProgramPart::Stmt(stmt) => visit_stmt(stmt),
+        _ => vec![],
+    }
+}
+
+fn visit_stmt(stmt: &Stmt) -> Vec<I11nObf> {
+    match stmt {
+        Stmt::Expr(expr) => visit_expr(expr),
+        // Stmt::Throw(expr) => visit_expr(expr),
+        
+        // Stmt::Block(BlockStmt(stmts)) => stmts.iter().flat_map(|a| visit_prog_part(a)).collect(),
+        // Stmt::With(WithStmt { object: _, body }) => visit_stmt(body),
+        // Stmt::Labeled(LabeledStmt { label: _, body }) => visit_stmt(body),
+        // Stmt::If(IfStmt { test: _, consequent, alternate }) => { let mut a = visit_stmt(consequent); if let Some(b) = alternate { a.extend(visit_stmt(b)); } a },
+        // Stmt::Return(expr) => expr.as_ref().map_or(vec![], |expr| visit_expr(expr)),
+        // Stmt::Switch(SwitchStmt { discriminant: _, cases }) => cases.iter().flat_map(|case| case.consequent.iter().flat_map(|a| visit_prog_part(a)).chain(case.test.as_ref().map_or(vec![], |expr| visit_expr(expr)))).collect(),
+        // Stmt::Try(TryStmt { block: BlockStmt(stmts), handler, finalizer }) => stmts.iter().flat_map(|a| visit_prog_part(a)).collect(),
+        
+        // TODO: Many more unhandled here but I couldn't give less of a fuck. This was a *pain*
+        _ => vec![],
+    }
+}
+
+fn visit_expr(expr: &Expr) -> Vec<I11nObf> {
     if let Expr::Call(call) = expr
         && let Expr::Ident(func_name) = *call.callee.clone()
         && func_name.name == "M5" /* Hard-coded, for now. */
@@ -105,16 +143,6 @@ fn comb_expr(expr: &Expr) -> Vec<I11nObf> {
         }]
     } else {
         vec![]
-    }
-}
-
-fn comb_prog_part(a: &ProgramPart) -> Vec<I11nObf> {
-    match a {
-        ProgramPart::Decl(Decl::Var(_, decls)) => decls
-            .iter()
-            .flat_map(|decl| decl.init.as_ref().map_or(vec![], |expr| comb_expr(expr)))
-            .collect(),
-        _ => vec![],
     }
 }
 
