@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+regex = "1.10.3"
 resast = "0.5.0"
 ressa = "0.8.2"
 serde = { version = "1.0.197", features = ["derive"] }
