@@ -55,18 +55,12 @@ fn run() {
             // }
         }
     }
-
-    let packages: HashMap<&String, &String> = translations
-        .iter()
-        .filter(|&(_, package)| package.starts_with("java.") || package.starts_with("com."))
-        .collect();
-
+    
     fs::write(
         "translations.json",
         serde_json::to_string(&translations).unwrap(),
     )
     .unwrap();
-    fs::write("packages.json", serde_json::to_string(&packages).unwrap()).unwrap();
 
     // for a in &ast {
     //     comb_prog_part(a);
