@@ -55,7 +55,7 @@ fn run() {
             // }
         }
     }
-    
+
     fs::write(
         "translations.json",
         serde_json::to_string(&translations).unwrap(),
@@ -79,10 +79,40 @@ fn run() {
 
     {
         // Raw file
-        let mut file = fs::File::options().write(true).create(true).open("classes.txt").unwrap();
-        for binding in &class_bindings {
-            file.write_all((binding.package.clone() + "." + &binding.class_name + "\n").as_bytes())
-                .unwrap();
+        let mut file = fs::File::options()
+            .write(true)
+            .create(true)
+            .open("classes.txt")
+            .unwrap();
+
+        let mut classes = class_bindings
+            .iter()
+            .map(|binding| binding.package.clone() + "." + &binding.class_name + "\n")
+            .collect::<Vec<String>>();
+        classes.sort();
+
+        for binding in classes {
+            file.write_all(binding.as_bytes()).unwrap();
+        }
+    }
+
+    {
+        // Raw file (Classes by ids)
+        let mut file = fs::File::options()
+            .write(true)
+            .create(true)
+            .open("classes_ids.txt")
+            .unwrap();
+
+        let mut classes = class_bindings.clone();
+        classes.sort_by(|a, b| a.class_id.cmp(&b.class_id));
+        let classes = classes
+            .iter()
+            .map(|binding| binding.class_id.to_string() + ":" + &binding.package + "." + &binding.class_name + "\n")
+            .collect::<Vec<String>>();
+
+        for binding in classes {
+            file.write_all(binding.as_bytes()).unwrap();
         }
     }
 

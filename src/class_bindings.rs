@@ -56,14 +56,14 @@ fn visit_expr(expr: &Expr) -> Vec<ClassBindingObf> {
     }
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct ClassBindingObf {
     package_obf: String,
     class_name: String,
     class_id: u16,
 }
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct ClassBinding {
     pub package_obf: String,
     pub package: String,
