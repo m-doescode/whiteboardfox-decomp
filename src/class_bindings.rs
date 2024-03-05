@@ -48,7 +48,7 @@ fn ident_or_string(expr: &Expr) -> PackageName {
 fn visit_expr(expr: &Expr) -> Vec<ClassBindingObf> {
     if let Expr::Call(call) = expr
         && let Expr::Ident(func_name) = *call.callee.clone()
-        && func_name.name == "M5" /* Hard-coded, for now. */
+        && (func_name.name == "M5" || func_name.name == "N5") /* Hard-coded, for now. */
 
         // && let Expr::Ident(package_obf) = &call.arguments[0]
         && let Expr::Lit(Lit::String(StringLit::Single(class_name))) = &call.arguments[1]

@@ -173,7 +173,7 @@ fn run() {
     println!("Done.");
 
     println!("Number of translations: {}", translations.len());
-    println!("Number of class bindings: {} / 635", class_bindings.len());
+    println!("Number of class bindings: {} / 703", class_bindings.len());
     println!("Number of constructors: {} / 697", constructors.len());
 }
 
