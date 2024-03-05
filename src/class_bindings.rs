@@ -37,17 +37,25 @@ fn visit_stmt(stmt: &Stmt) -> Vec<ClassBindingObf> {
     }
 }
 
+fn ident_or_string(expr: &Expr) -> PackageName {
+    match expr {
+        Expr::Ident(ident) => PackageName::Obfuscated(ident.name.to_string()),
+        Expr::Lit(Lit::String(StringLit::Single(string))) => PackageName::Raw(string.to_string()),
+        _ => panic!()
+    }
+}
+
 fn visit_expr(expr: &Expr) -> Vec<ClassBindingObf> {
     if let Expr::Call(call) = expr
         && let Expr::Ident(func_name) = *call.callee.clone()
         && func_name.name == "M5" /* Hard-coded, for now. */
 
-        && let Expr::Ident(package_obf) = &call.arguments[0]
+        // && let Expr::Ident(package_obf) = &call.arguments[0]
         && let Expr::Lit(Lit::String(StringLit::Single(class_name))) = &call.arguments[1]
         && let Expr::Lit(Lit::Number(obj_id_unparsed)) = &call.arguments[2]
     {
         vec![ClassBindingObf {
-            package_obf: package_obf.name.to_string(),
+            package_obf: ident_or_string(&call.arguments[0]),
             class_name: class_name.to_string(),
             class_id: obj_id_unparsed.to_string().parse::<u16>().unwrap(),
         }]
@@ -57,8 +65,14 @@ fn visit_expr(expr: &Expr) -> Vec<ClassBindingObf> {
 }
 
 #[derive(Serialize, Deserialize, Clone)]
+enum PackageName {
+    Obfuscated(String),
+    Raw(String)
+}
+
+#[derive(Serialize, Deserialize, Clone)]
 pub struct ClassBindingObf {
-    package_obf: String,
+    package_obf: PackageName,
     class_name: String,
     class_id: u16,
 }
@@ -74,8 +88,8 @@ pub struct ClassBinding {
 impl ClassBindingObf {
     pub fn convert(self, translations: &HashMap<String, String>) -> ClassBinding {
         ClassBinding {
-            package: translations.get(&self.package_obf).unwrap().to_string(),
-            package_obf: self.package_obf,
+            package: match &self.package_obf { PackageName::Raw(x) => x.to_string(), PackageName::Obfuscated(package_obf) => translations.get(package_obf).unwrap().to_string() },
+            package_obf: match self.package_obf { PackageName::Obfuscated(x) => x, _ => "<none>".to_string() },
             class_name: self.class_name,
             class_id: self.class_id,
         }

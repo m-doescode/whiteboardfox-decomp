@@ -66,6 +66,7 @@
 126:com.google.gwt.core.client.JavaScriptException
 127:java.lang.StringBuilder
 128:java.util.StringJoiner
+129:java.nio.charset.Charset
 130:com.google.gwt.user.client.ui.CustomButton/2
 132:com.markmclaren.whiteboard.fill.LineKey
 133:com.google.gwt.event.shared.GwtEvent/Type
@@ -175,6 +176,7 @@
 274:java.util.Spliterator/OfLong/5methodref$accept$Type
 275:java.util.InternalStringMap/1
 276:java.util.InternalHashCodeMap/1
+277:com.google.gwt.resources.client.impl.ImageResourcePrototype
 278:com.markmclaren.whiteboard.client.view.controller.StyleMode/lambda$2$Type
 279:com.markmclaren.whiteboard.shared.diagram.Stroke/lambda$1$Type
 280:com.markmclaren.whiteboard.shared.diagram.Stroke/lambda$6$Type
@@ -189,6 +191,7 @@
 289:java.lang.ArrayIndexOutOfBoundsException
 290:com.markmclaren.whiteboard.shared.util.ReverseList
 293:com.markmclaren.whiteboard.client.Whiteboard
+294:com.google.gwt.useragent.client.UserAgentAsserter/UserAgentAssertionError
 296:com.google.gwt.logging.client.LogConfiguration/LogConfigurationImplSevere
 297:com.google.gwt.logging.client.LogConfiguration/1
 298:com.google.gwt.logging.client.ConsoleLogHandler
@@ -388,6 +391,7 @@
 493:com.google.gwt.user.client.ui.LayoutCommand/1
 494:com.google.gwt.user.client.ui.impl.FocusImpl
 495:com.markmclaren.whiteboard.client.DiagramElementCache
+496:com.sksamuel.gwt.websockets.Websocket
 497:com.google.gwt.user.client.ui.Image/State
 498:com.google.gwt.user.client.ui.Image/State/1
 499:com.google.gwt.user.client.ui.CellPanel

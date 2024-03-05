@@ -187,7 +187,7 @@ Rfb:545:java.util.logging.Level/LevelAll
 Rg:542:com.google.gwt.core.client.impl.SchedulerImpl
 Rl:679:com.google.gwt.event.logical.shared.CloseEvent
 S0:65:com.markmclaren.whiteboard.shared.diagram.Line
-SC:277:?
+SC:277:com.google.gwt.resources.client.impl.ImageResourcePrototype
 SK:481:com.markmclaren.whiteboard.client.Painter/lambda$4$Type
 SO:386:com.markmclaren.whiteboard.client.Whiteboard/15
 SP:330:com.markmclaren.whiteboard.client.Whiteboard/lambda$10$Type
@@ -199,7 +199,7 @@ Shb:605:java.util.stream.Stream/0methodref$close$Type
 TC:728:com.google.gwt.safehtml.shared.OnlyToBeUsedInGeneratedCodeStringBlessedAsSafeHtml
 TD:426:com.google.gwt.user.client.Window/ClosingEvent
 TE:423:com.google.gwt.user.client.ui.AttachDetachException
-TI:294:?
+TI:294:com.google.gwt.useragent.client.UserAgentAsserter/UserAgentAssertionError
 TT:147:?
 TU:264:com.markmclaren.whiteboard.client.view.controller.ManualBridgeMode/0methodref$getLinePoints$Type
 TX:433:com.markmclaren.whiteboard.client.view.controller.SwipeOverElementMode/lambda$0$Type
@@ -424,7 +424,7 @@ kj:527:?
 kk:500:?
 km:148:?
 l2:576:com.markmclaren.whiteboard.shared.diagram.Stroke/0methodref$isEmpty$Type
-l5:496:?
+l5:496:com.sksamuel.gwt.websockets.Websocket
 lP:336:com.markmclaren.whiteboard.client.Whiteboard/6
 lQ:348:com.markmclaren.whiteboard.client.Whiteboard/lambda$20$Type
 lR:383:com.markmclaren.whiteboard.client.Whiteboard/lambda$44$Type

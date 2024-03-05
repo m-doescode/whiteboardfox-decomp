@@ -136,6 +136,7 @@ com.google.gwt.logging.client.LogConfiguration/LogConfigurationImplSevere
 com.google.gwt.logging.client.TextLogFormatter
 com.google.gwt.logging.impl.FormatterImpl
 com.google.gwt.logging.impl.StackTracePrintStream
+com.google.gwt.resources.client.impl.ImageResourcePrototype
 com.google.gwt.safehtml.shared.OnlyToBeUsedInGeneratedCodeStringBlessedAsSafeHtml
 com.google.gwt.safehtml.shared.SafeHtmlString
 com.google.gwt.safehtml.shared.SafeUriString
@@ -201,6 +202,7 @@ com.google.gwt.user.client.ui.WidgetCollection/WidgetIterator
 com.google.gwt.user.client.ui.impl.FocusImpl
 com.google.gwt.user.client.ui.impl.FocusImplSafari
 com.google.gwt.user.client.ui.impl.FocusImplStandard
+com.google.gwt.useragent.client.UserAgentAsserter/UserAgentAssertionError
 com.google.web.bindery.event.shared.Event
 com.google.web.bindery.event.shared.Event/Type
 com.google.web.bindery.event.shared.EventBus
@@ -463,6 +465,7 @@ com.markmclaren.whiteboard.shared.util.io.DataByteArrayOutputStream
 com.markmclaren.whiteboard.shared.util.io.DiagramBytes/lambda$0$Type
 com.markmclaren.whiteboard.shared.util.io.EOFException
 com.markmclaren.whiteboard.shared.util.io.UTFDataFormatException
+com.sksamuel.gwt.websockets.Websocket
 java.io.FilterOutputStream
 java.io.IOException
 java.io.OutputStream
@@ -496,6 +499,7 @@ java.lang.StringBuilder
 java.lang.StringIndexOutOfBoundsException
 java.lang.Throwable
 java.lang.UnsupportedOperationException
+java.nio.charset.Charset
 java.util.AbstractCollection
 java.util.AbstractHashMap
 java.util.AbstractHashMap/EntrySet
