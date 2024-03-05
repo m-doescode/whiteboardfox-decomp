@@ -5,6 +5,7 @@
 
 use resast::prelude::*;
 use ressa::*;
+use std::hash::Hash;
 use std::{fs, io::Write};
 
 use std::collections::HashMap;
@@ -14,7 +15,10 @@ use std::thread;
 const STACK_SIZE: usize = 4 * 1024 * 1024;
 
 pub mod class_bindings;
-use class_bindings::{ClassBinding, ClassBindingObf};
+use class_bindings::ClassBinding;
+
+pub mod constructors;
+use constructors::ConstructorBinding;
 
 fn run() {
     // let input = fs::read_to_string("test.js").unwrap();
@@ -77,6 +81,22 @@ fn run() {
     )
     .unwrap();
 
+    let class_qualifiers: HashMap<u16, &ClassBinding> = class_bindings
+        .iter()
+        .map(|class_binding| (class_binding.class_id, class_binding))
+        .collect();
+
+    let constructors: Vec<ConstructorBinding> = ast
+        .iter()
+        .flat_map(|a| constructors::visit_prog_part(a))
+        .map(|binding| binding.convert(&class_qualifiers))
+        .collect();
+    fs::write(
+        "constructors.json",
+        serde_json::to_string(&constructors).unwrap(),
+    )
+    .unwrap();
+
     {
         // Raw file
         let mut file = fs::File::options()
@@ -108,10 +128,44 @@ fn run() {
         classes.sort_by(|a, b| a.class_id.cmp(&b.class_id));
         let classes = classes
             .iter()
-            .map(|binding| binding.class_id.to_string() + ":" + &binding.package + "." + &binding.class_name + "\n")
+            .map(|binding| {
+                binding.class_id.to_string()
+                    + ":"
+                    + &binding.package
+                    + "."
+                    + &binding.class_name
+                    + "\n"
+            })
             .collect::<Vec<String>>();
 
         for binding in classes {
+            file.write_all(binding.as_bytes()).unwrap();
+        }
+    }
+
+    {
+        // Raw file (Constructors)
+        let mut file = fs::File::options()
+            .write(true)
+            .create(true)
+            .open("constructors_ids.txt")
+            .unwrap();
+
+        let mut constructors = constructors.clone();
+        constructors.sort_by(|a, b| a.constructor_name.cmp(&b.constructor_name));
+        let constructors = constructors
+            .iter()
+            .map(|binding| {
+                binding.constructor_name.to_string()
+                    + ":"
+                    + &binding.class_id.to_string()
+                    + ":"
+                    + &binding.class_qualifier
+                    + "\n"
+            })
+            .collect::<Vec<String>>();
+
+        for binding in constructors {
             file.write_all(binding.as_bytes()).unwrap();
         }
     }
@@ -120,6 +174,7 @@ fn run() {
 
     println!("Number of translations: {}", translations.len());
     println!("Number of class bindings: {} / 635", class_bindings.len());
+    println!("Number of constructors: {} / 697", constructors.len());
 }
 
 fn main() {
